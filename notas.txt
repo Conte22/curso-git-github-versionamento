@@ -1,0 +1,46 @@
+Anotações do Curso de Git e GitHub
+  ====================================
+
+  Data: 01/04/2026
+
+  --- O que aprendi hoje ---
+
+  1. Git é um sistema de controle de versão distribuído.
+     - Criado por Linus Torvalds em 2005
+     - Cada desenvolvedor tem uma cópia completa do histórico
+
+  2. Os três estados de um arquivo no Git:
+     - Working Directory: onde você edita os arquivos
+     - Staging Area (index): área de preparação para o commit
+     - Repository: onde o commit é salvo definitivamente
+
+  3. Comandos que mais usei:
+     - git init         → inicializa um repositório
+     - git status       → mostra o estado atual dos arquivos
+     - git add .        → adiciona tudo ao stage
+     - git commit -m    → salva as mudanças com uma mensagem
+     - git push         → envia para o GitHub
+     - git pull         → baixa atualizações do GitHub
+     - git log          → mostra o histórico de commits
+
+  4. Diferença entre git add e git commit:
+     - git add: seleciona quais mudanças vão entrar no próximo commit
+     - git commit: cria um "snapshot" permanente dessas mudanças
+
+  5. O que é um branch (ramificação)?
+     - É uma linha independente de desenvolvimento
+     - Permite trabalhar em features sem afetar o código principal
+     - Comando: git checkout -b nome-da-branch
+
+  --- Dúvidas para pesquisar ---
+
+  - Como resolver conflitos de merge?
+  - O que é git rebase?
+  - Como usar git stash?
+
+  --- Próximos passos ---
+
+  [ ] Praticar criação de branches
+  [ ] Fazer um pull request no GitHub
+  [ ] Estudar o fluxo Git Flow
+  
